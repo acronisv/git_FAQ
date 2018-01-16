@@ -1,0 +1,10 @@
+git clone git@github.com:acronisv/324721-sedona.git
+git pull
+
+git add {file}
+git commit -m "{comment}"
+git push origin
+
+
+git checkout создает и переключается мд ветками
+git checkout -b {название} создает ветку 
