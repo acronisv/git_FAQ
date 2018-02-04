@@ -8,3 +8,5 @@ git push origin
 
 git checkout создает и переключается мд ветками
 git checkout -b {название} создает ветку 
+
+git remote add {название} {адрес}.git
