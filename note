@@ -1,12 +1,25 @@
 git clone git@github.com:acronisv/324721-sedona.git
-git pull
 
-git add {file}
+//Отслеживание изменений
+git status
+
+//Добавление под версионный контроль новых файлов
+git add {file} или git add .
+
+//Запись изменений в репозиторий
 git commit -m "{comment}"
+
+//Отправка изменений в удаленный репозиторий
 git push origin
 
+//Получение данных из репозитория
+git pull
 
-git checkout создает и переключается мд ветками
-git checkout -b {название} создает ветку 
+//Переключение между ветками
+git checkout
 
+//Создание новой ветки
+git checkout -b {название}  
+
+//Добавление нового удаленного репозитория
 git remote add {название} {адрес}.git
