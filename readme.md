@@ -1,6 +1,7 @@
 git clone git@github.com:acronisv/324721-sedona.git
 
 //Отслеживание изменений
+
 git status
 
 
