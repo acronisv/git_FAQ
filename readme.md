@@ -47,3 +47,7 @@ git remote -v
 //Вернуть репозиторий на 1 коммит назад
 
 git reset --hard HEAD^1
+
+//Push после git reset --hard HEAD^1
+
+git push -f origin {name}
