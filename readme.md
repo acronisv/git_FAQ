@@ -51,3 +51,14 @@ git reset --hard HEAD^1
 //Push после git reset --hard HEAD^1
 
 git push -f origin {name}
+
+
+//История изменений
+
+git log
+
+
+//История изменений в одностраничном формате
+
+git log --pretty=oneline
+
