@@ -14,6 +14,9 @@ git add {file} или git add .
 
 git commit -m "{comment}"
 
+//Изменение предыдущего коммита
+
+git commit --amend -m
 
 //Отправка изменений в удаленный репозиторий
 
@@ -62,3 +65,12 @@ git log
 
 git log --pretty=oneline
 
+
+//Отмена локальных изменений (до индексации)
+
+ git checkout {filename}
+ 
+ 
+ //Отмена индексации изменений
+ 
+ git reset HEAD {filename}
