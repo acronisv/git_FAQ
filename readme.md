@@ -24,7 +24,6 @@ git checkout {name}
 #Создание новой ветки
 git checkout -b {name}  
 
-
 # Добавление нового удаленного репозитория под именем-сокращением {name} с адресом {адрес}.git
 git remote add {name} {адрес}.git
 
@@ -42,7 +41,6 @@ git log
 
 # История изменений в одностраничном формате
 git log --pretty=oneline
-
 
 # Отмена локальных изменений (до индексации)
 git checkout {filename}
