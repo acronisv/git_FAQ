@@ -47,4 +47,14 @@ git checkout {filename}
 
 # Отмена индексации изменений
 git reset HEAD {filename}
+
+# Удаление файла с удаленного репозитория и файловой системы
+git rm {filename}
+
+
+# Удаление файла только с удаленного репозитория
+git rm --cached {filename}
+
+# Удаление папки с удаленного репозитория
+git rm -r --cached {foldername}
 ```
